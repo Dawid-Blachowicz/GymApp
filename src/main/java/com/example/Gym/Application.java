@@ -1,13 +1,13 @@
-package com.example.Gym.App.Project;
+package com.example.Gym;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GymAppProjectApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GymAppProjectApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
